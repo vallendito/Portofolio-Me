@@ -20,7 +20,7 @@ class SkillPages extends Component {
                 these Programs.
                 </p>
                 <div className="programs">
-                    <SkillBars color="#027BFF" skills={SKILLS}/>
+                    <SkillBars color="#607d8b" skills={SKILLS}/>
                 </div>
                 
                 <ScrollToNext pageSelector=".portofolio" />

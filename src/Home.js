@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import LandingPages from './Pages/LandingPages';
 import AboutPages from './Pages/AboutPages';
 import SkillPages from './Pages/SkillPages';
+import PortfolioPage from './Pages/PortofolioPages/PortofolioPages';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <LandingPages />
       <AboutPages />
       <SkillPages />
+      <PortfolioPage />
     </div>
   )
 }
