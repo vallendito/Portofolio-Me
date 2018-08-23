@@ -3,6 +3,7 @@ import ParallaxBackground from './components/ParallaxBackground';
 import Nav from './components/Nav';
 import LandingPages from './Pages/LandingPages';
 import AboutPages from './Pages/AboutPages';
+import SkillPages from './Pages/SkillPages';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Nav />
       <LandingPages />
       <AboutPages />
+      <SkillPages />
     </div>
   )
 }

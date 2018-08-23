@@ -87,13 +87,13 @@ ul {
 .landingL {
     margin-top: 4em;
 }
-.scroll {
+/* .scroll {
     position: absolute;
     bottom: 180px;
     left: 0;
     right: 0;
     margin: auto;
-}
+} */
 .landingR {
     margin-top: 2em;
 }
@@ -128,9 +128,66 @@ ul {
     }
 }
 
+/*-------- About --------*/
+.about {
+    height: 100vh;
+    position: relative;
+}
+.aboutWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10em;
+}
+.aboutL {
+    margin-right: 4em;
+}
+.aboutR {
+    text-align: right;
+}
+.aboutR p {
+    text-align: justify;
+}
 
+/*-------- Skill --------*/
+.skills {
+    text-align: center;
+    height: 100vh;
+    padding-top: 6em;
+}
+.programs {
+    text-align: left;
+}
 
-
+/* skill bar */
+.skillBars li {
+    display: block;
+    position: relative;
+    background-color: #888;
+    color: #fff;
+    margin: 10px 0;
+    transition: width 300ms ease-in-out;
+    border: transparent;
+    border-radius: 10px;
+}
+.collapsed .skillBars li {
+    width: 0 !important;
+  }
+.skillBars li p {
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+}
+.skillBars li span {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    width: 30px;
+    top: 11px;
+    text-align: right;
+    font-weight: normal;
+    color: #fff;
+    font-size: 16px;
+}
 
 
 

@@ -17,10 +17,10 @@ const LandingPage = () => {
                 </ul>
                 </div>
                 <div className="landingR">
-                    <img src="assets/images/vallen.svg" alt="Programmer" width="320px"/>
+                    <img src="assets/images/vallen.svg" alt="Programmer" width="400px"/>
                 </div>
             </div>
-            <ScrollToNext pageSelector=".about-page" />
+            <ScrollToNext pageSelector=".about" />
         </div>
     )
 }
